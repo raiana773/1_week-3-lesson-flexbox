@@ -1,0 +1,60 @@
+div {
+  background-color: red;
+  color: white;
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  margin: 10px;
+}
+.parent {
+  border: 3px solid black;
+  height: 400px;
+  background-color: wheat;
+  width: auto;
+}
+.example-1 {
+  display: flex;
+}
+
+.example-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-3 {
+  display: flex;
+  flex-direction: row;
+}
+.example-4 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.example-5 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.example-6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.example-7 {
+  display: flex;
+  justify-content: space-between;
+}
+.example-8 {
+  display: flex;
+  justify-content: space-around;
+}
+.example-9 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.example-10 {
+  display: flex;
+  justify-content: center;
+}
+.example-11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
